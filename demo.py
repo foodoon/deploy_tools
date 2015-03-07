@@ -31,7 +31,7 @@ env.roledefs = {
 env.passwords = {
    'root@ums365.com:22':'gavin1217',
 }
-
+#env.key_filename = "~/.ssh/id_rsa"
 
 @roles('pro-server')
 def test():
